@@ -1,0 +1,4 @@
+-Wall
+-Werror
+-pedantic
+-std=c11

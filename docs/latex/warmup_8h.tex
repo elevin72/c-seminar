@@ -1,0 +1,67 @@
+\hypertarget{warmup_8h}{}\doxysection{Exercise01/ex01.01/warmup.h File Reference}
+\label{warmup_8h}\index{Exercise01/ex01.01/warmup.h@{Exercise01/ex01.01/warmup.h}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{warmup_8h_ad5131de0b5004c64db5e79e8aac7471e}{LINE\+\_\+\+LENGTH}}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{warmup_8h_a37e63c94e4b3706f694859ee8358de9a}{Terminated}} (char $\ast$string)
+\item 
+void \mbox{\hyperlink{warmup_8h_a27418d5ce5920e6af63bb3889f13610e}{Remove\+New\+Line}} (char $\ast$string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{warmup_8h_ad5131de0b5004c64db5e79e8aac7471e}\label{warmup_8h_ad5131de0b5004c64db5e79e8aac7471e}} 
+\index{warmup.h@{warmup.h}!LINE\_LENGTH@{LINE\_LENGTH}}
+\index{LINE\_LENGTH@{LINE\_LENGTH}!warmup.h@{warmup.h}}
+\doxysubsubsection{\texorpdfstring{LINE\_LENGTH}{LINE\_LENGTH}}
+{\footnotesize\ttfamily \#define LINE\+\_\+\+LENGTH~3}
+
+Standard line length is 80 
+
+Definition at line 4 of file warmup.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{warmup_8h_a27418d5ce5920e6af63bb3889f13610e}\label{warmup_8h_a27418d5ce5920e6af63bb3889f13610e}} 
+\index{warmup.h@{warmup.h}!RemoveNewLine@{RemoveNewLine}}
+\index{RemoveNewLine@{RemoveNewLine}!warmup.h@{warmup.h}}
+\doxysubsubsection{\texorpdfstring{RemoveNewLine()}{RemoveNewLine()}}
+{\footnotesize\ttfamily void Remove\+New\+Line (\begin{DoxyParamCaption}\item[{char $\ast$}]{string }\end{DoxyParamCaption})}
+
+If the final character in the string is a newline, that chracter is replaced by a \textquotesingle{}\textbackslash{}0\textquotesingle{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string that may have its newline removed \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file warmup.\+c.
+
+\mbox{\Hypertarget{warmup_8h_a37e63c94e4b3706f694859ee8358de9a}\label{warmup_8h_a37e63c94e4b3706f694859ee8358de9a}} 
+\index{warmup.h@{warmup.h}!Terminated@{Terminated}}
+\index{Terminated@{Terminated}!warmup.h@{warmup.h}}
+\doxysubsubsection{\texorpdfstring{Terminated()}{Terminated()}}
+{\footnotesize\ttfamily int Terminated (\begin{DoxyParamCaption}\item[{char $\ast$}]{string }\end{DoxyParamCaption})}
+
+Decides if the program should be terminated or not yet, based on the null-\/terminated string passed
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string that is possibly a termination string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 for terminated, 0 for not terminated 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file warmup.\+c.
+

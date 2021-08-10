@@ -1,0 +1,67 @@
+\hypertarget{morewarmup_8h}{}\doxysection{Exercise01/ex01.02/morewarmup.h File Reference}
+\label{morewarmup_8h}\index{Exercise01/ex01.02/morewarmup.h@{Exercise01/ex01.02/morewarmup.h}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{morewarmup_8h_ad5131de0b5004c64db5e79e8aac7471e}{LINE\+\_\+\+LENGTH}}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{morewarmup_8h_a37e63c94e4b3706f694859ee8358de9a}{Terminated}} (char $\ast$string)
+\item 
+void \mbox{\hyperlink{morewarmup_8h_a27418d5ce5920e6af63bb3889f13610e}{Remove\+New\+Line}} (char $\ast$string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{morewarmup_8h_ad5131de0b5004c64db5e79e8aac7471e}\label{morewarmup_8h_ad5131de0b5004c64db5e79e8aac7471e}} 
+\index{morewarmup.h@{morewarmup.h}!LINE\_LENGTH@{LINE\_LENGTH}}
+\index{LINE\_LENGTH@{LINE\_LENGTH}!morewarmup.h@{morewarmup.h}}
+\doxysubsubsection{\texorpdfstring{LINE\_LENGTH}{LINE\_LENGTH}}
+{\footnotesize\ttfamily \#define LINE\+\_\+\+LENGTH~3}
+
+1 for the char, 1 for \textquotesingle{}/n\textquotesingle{}, and 1 for \textquotesingle{}/0\textquotesingle{} 
+
+Definition at line 4 of file morewarmup.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{morewarmup_8h_a27418d5ce5920e6af63bb3889f13610e}\label{morewarmup_8h_a27418d5ce5920e6af63bb3889f13610e}} 
+\index{morewarmup.h@{morewarmup.h}!RemoveNewLine@{RemoveNewLine}}
+\index{RemoveNewLine@{RemoveNewLine}!morewarmup.h@{morewarmup.h}}
+\doxysubsubsection{\texorpdfstring{RemoveNewLine()}{RemoveNewLine()}}
+{\footnotesize\ttfamily void Remove\+New\+Line (\begin{DoxyParamCaption}\item[{char $\ast$}]{string }\end{DoxyParamCaption})}
+
+If the final character in the string is a newline, that chracter is replaced by a \textquotesingle{}\textbackslash{}0\textquotesingle{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string that may have its newline removed \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file morewarmup.\+c.
+
+\mbox{\Hypertarget{morewarmup_8h_a37e63c94e4b3706f694859ee8358de9a}\label{morewarmup_8h_a37e63c94e4b3706f694859ee8358de9a}} 
+\index{morewarmup.h@{morewarmup.h}!Terminated@{Terminated}}
+\index{Terminated@{Terminated}!morewarmup.h@{morewarmup.h}}
+\doxysubsubsection{\texorpdfstring{Terminated()}{Terminated()}}
+{\footnotesize\ttfamily int Terminated (\begin{DoxyParamCaption}\item[{char $\ast$}]{string }\end{DoxyParamCaption})}
+
+Decides if the program should be terminated or not yet, based on the null-\/terminated string passed
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string that is possibly a termination string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 for terminated, 0 for not terminated 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file morewarmup.\+c.
+
