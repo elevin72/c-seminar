@@ -2,14 +2,15 @@
 \label{diamond_8c}\index{Exercise01/ex01.04/diamond.c@{Exercise01/ex01.04/diamond.c}}
 {\ttfamily \#include $<$string.\+h$>$}\newline
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}diamond.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{diamond_8c_a0205731a331ed3f0b4c5697d54fa3993}{Print\+Char}} (char c, int n)
 \item 
-void \mbox{\hyperlink{diamond_8c_adde519463bc6a71a6c6de9e141deb3f4}{Print\+Line}} (int i, int bigger\+Half)
+void \mbox{\hyperlink{diamond_8c_aa8960ef92da86ee6b5533278facacf99}{Print\+Line}} (int spaces, int stars)
 \item 
-int \mbox{\hyperlink{diamond_8c_a7ffb1bd7e2e9123f7c1b45c7e185ef18}{Print\+Diamond}} (int x)
+int \mbox{\hyperlink{diamond_8c_aeb09ac7bf26dc3f544c5186e2fcfe014}{Print\+Diamond}} (int width)
 \item 
 int \mbox{\hyperlink{diamond_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
 \end{DoxyCompactItemize}
@@ -24,7 +25,7 @@ int \mbox{\hyperlink{diamond_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
 
 
 
-Definition at line 30 of file diamond.\+c.
+Definition at line 37 of file diamond.\+c.
 
 \mbox{\Hypertarget{diamond_8c_a0205731a331ed3f0b4c5697d54fa3993}\label{diamond_8c_a0205731a331ed3f0b4c5697d54fa3993}} 
 \index{diamond.c@{diamond.c}!PrintChar@{PrintChar}}
@@ -32,27 +33,55 @@ Definition at line 30 of file diamond.\+c.
 \doxysubsubsection{\texorpdfstring{PrintChar()}{PrintChar()}}
 {\footnotesize\ttfamily void Print\+Char (\begin{DoxyParamCaption}\item[{char}]{c,  }\item[{int}]{n }\end{DoxyParamCaption})}
 
+Prints a character a given number of times.
 
 
-Definition at line 4 of file diamond.\+c.
+\begin{DoxyParams}{Parameters}
+{\em c} & The character to be printed \\
+\hline
+{\em n} & The number of times to print the character \\
+\hline
+\end{DoxyParams}
 
-\mbox{\Hypertarget{diamond_8c_a7ffb1bd7e2e9123f7c1b45c7e185ef18}\label{diamond_8c_a7ffb1bd7e2e9123f7c1b45c7e185ef18}} 
+
+Definition at line 6 of file diamond.\+c.
+
+\mbox{\Hypertarget{diamond_8c_aeb09ac7bf26dc3f544c5186e2fcfe014}\label{diamond_8c_aeb09ac7bf26dc3f544c5186e2fcfe014}} 
 \index{diamond.c@{diamond.c}!PrintDiamond@{PrintDiamond}}
 \index{PrintDiamond@{PrintDiamond}!diamond.c@{diamond.c}}
 \doxysubsubsection{\texorpdfstring{PrintDiamond()}{PrintDiamond()}}
-{\footnotesize\ttfamily int Print\+Diamond (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int Print\+Diamond (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})}
+
+Prints a diamond of stars
 
 
+\begin{DoxyParams}{Parameters}
+{\em width} & width of diamond. This parameter should be an odd int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 if width was even or negative 
+\end{DoxyReturn}
 
-Definition at line 17 of file diamond.\+c.
 
-\mbox{\Hypertarget{diamond_8c_adde519463bc6a71a6c6de9e141deb3f4}\label{diamond_8c_adde519463bc6a71a6c6de9e141deb3f4}} 
+Definition at line 19 of file diamond.\+c.
+
+\mbox{\Hypertarget{diamond_8c_aa8960ef92da86ee6b5533278facacf99}\label{diamond_8c_aa8960ef92da86ee6b5533278facacf99}} 
 \index{diamond.c@{diamond.c}!PrintLine@{PrintLine}}
 \index{PrintLine@{PrintLine}!diamond.c@{diamond.c}}
 \doxysubsubsection{\texorpdfstring{PrintLine()}{PrintLine()}}
-{\footnotesize\ttfamily void Print\+Line (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{bigger\+Half }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Print\+Line (\begin{DoxyParamCaption}\item[{int}]{spaces,  }\item[{int}]{stars }\end{DoxyParamCaption})}
+
+Prints a line of the diamond
 
 
+\begin{DoxyParams}{Parameters}
+{\em spaces} & number of spaces in line \\
+\hline
+{\em stars} & number of stars in line \\
+\hline
+\end{DoxyParams}
 
-Definition at line 10 of file diamond.\+c.
+
+Definition at line 12 of file diamond.\+c.
 

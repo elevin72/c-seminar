@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['removenewline_46',['RemoveNewLine',['../warmup_8c.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c'],['../warmup_8h.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c'],['../morewarmup_8c.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;morewarmup.c'],['../morewarmup_8h.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c']]]
+  ['getcheckdigit_59',['GetCheckDigit',['../id_validate_8c.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c'],['../id_validate_8h.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c'],['../fix_i_d_8c.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;fixID.c'],['../fix_i_d_8h.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c']]]
 ];

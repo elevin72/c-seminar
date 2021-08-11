@@ -1,0 +1,79 @@
+\hypertarget{id_validate_8h}{}\doxysection{Exercise01/ex01.05/id\+Validate.h File Reference}
+\label{id_validate_8h}\index{Exercise01/ex01.05/idValidate.h@{Exercise01/ex01.05/idValidate.h}}
+{\ttfamily \#include \char`\"{}stdbool.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{id_validate_8h_a1cdef4472847c938fc165b7d2737c4e4}{MAX\+\_\+\+ID}}~999999999
+\item 
+\#define \mbox{\hyperlink{id_validate_8h_a8b9cd75567a6e86818daff585c4e5529}{ID\+\_\+\+LENGTH\+\_\+\+NO\+\_\+\+CHECK\+\_\+\+DIGIT}}~8
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{id_validate_8h_a6671c4c55c2e4b51c7cfe2aabc3445fc}{Check\+ID}} (unsigned int id)
+\item 
+int \mbox{\hyperlink{id_validate_8h_a71308e7f4cd5eaae526e52f903fd5b5a}{Get\+Check\+Digit}} (unsigned int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{id_validate_8h_a8b9cd75567a6e86818daff585c4e5529}\label{id_validate_8h_a8b9cd75567a6e86818daff585c4e5529}} 
+\index{idValidate.h@{idValidate.h}!ID\_LENGTH\_NO\_CHECK\_DIGIT@{ID\_LENGTH\_NO\_CHECK\_DIGIT}}
+\index{ID\_LENGTH\_NO\_CHECK\_DIGIT@{ID\_LENGTH\_NO\_CHECK\_DIGIT}!idValidate.h@{idValidate.h}}
+\doxysubsubsection{\texorpdfstring{ID\_LENGTH\_NO\_CHECK\_DIGIT}{ID\_LENGTH\_NO\_CHECK\_DIGIT}}
+{\footnotesize\ttfamily \#define ID\+\_\+\+LENGTH\+\_\+\+NO\+\_\+\+CHECK\+\_\+\+DIGIT~8}
+
+Maximal length of a an ID, not including the check digit 
+
+Definition at line 11 of file id\+Validate.\+h.
+
+\mbox{\Hypertarget{id_validate_8h_a1cdef4472847c938fc165b7d2737c4e4}\label{id_validate_8h_a1cdef4472847c938fc165b7d2737c4e4}} 
+\index{idValidate.h@{idValidate.h}!MAX\_ID@{MAX\_ID}}
+\index{MAX\_ID@{MAX\_ID}!idValidate.h@{idValidate.h}}
+\doxysubsubsection{\texorpdfstring{MAX\_ID}{MAX\_ID}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+ID~999999999}
+
+Maximal value for an ID number 
+
+Definition at line 6 of file id\+Validate.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{id_validate_8h_a6671c4c55c2e4b51c7cfe2aabc3445fc}\label{id_validate_8h_a6671c4c55c2e4b51c7cfe2aabc3445fc}} 
+\index{idValidate.h@{idValidate.h}!CheckID@{CheckID}}
+\index{CheckID@{CheckID}!idValidate.h@{idValidate.h}}
+\doxysubsubsection{\texorpdfstring{CheckID()}{CheckID()}}
+{\footnotesize\ttfamily bool Check\+ID (\begin{DoxyParamCaption}\item[{unsigned int}]{id }\end{DoxyParamCaption})}
+
+Checks whether an ID number is valid or not 
+\begin{DoxyParams}{Parameters}
+{\em id} & A 9 digit positive integer, representing an ID number inclusing it\textquotesingle{}s check digit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if ID is valid, false if invalid. Invalid means incorrect check digit or ID number was more than 9 digits 
+\end{DoxyReturn}
+
+
+Definition at line 25 of file id\+Validate.\+c.
+
+\mbox{\Hypertarget{id_validate_8h_a71308e7f4cd5eaae526e52f903fd5b5a}\label{id_validate_8h_a71308e7f4cd5eaae526e52f903fd5b5a}} 
+\index{idValidate.h@{idValidate.h}!GetCheckDigit@{GetCheckDigit}}
+\index{GetCheckDigit@{GetCheckDigit}!idValidate.h@{idValidate.h}}
+\doxysubsubsection{\texorpdfstring{GetCheckDigit()}{GetCheckDigit()}}
+{\footnotesize\ttfamily int Get\+Check\+Digit (\begin{DoxyParamCaption}\item[{unsigned int}]{id }\end{DoxyParamCaption})}
+
+Calculates the check digit for an 8 digit ID number. Invalid input is UB. 
+\begin{DoxyParams}{Parameters}
+{\em id} & An 8 digit postive integer, representing an ID number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The check digit that will make this a valid ID 
+\end{DoxyReturn}
+
+
+Definition at line 7 of file id\+Validate.\+c.
+

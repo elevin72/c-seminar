@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['removenewline_21',['RemoveNewLine',['../warmup_8c.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c'],['../warmup_8h.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c'],['../morewarmup_8c.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;morewarmup.c'],['../morewarmup_8h.html#a27418d5ce5920e6af63bb3889f13610e',1,'RemoveNewLine(char *string):&#160;warmup.c']]]
+  ['length_16',['LENGTH',['../my__strlen_8h.html#a30362161c93e3f1a4ee4c673f535b5a8',1,'my_strlen.h']]],
+  ['line_5flength_17',['LINE_LENGTH',['../warmup_8h.html#ad5131de0b5004c64db5e79e8aac7471e',1,'LINE_LENGTH():&#160;warmup.h'],['../morewarmup_8h.html#ad5131de0b5004c64db5e79e8aac7471e',1,'LINE_LENGTH():&#160;morewarmup.h']]]
 ];
