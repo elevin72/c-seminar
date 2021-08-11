@@ -1,5 +1,11 @@
 var NAVTREEINDEX0 =
 {
+"almost_edges_8c.html":[2,0,0,7,0],
+"almost_edges_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[2,0,0,7,0,1],
+"almost_edges_8c.html#af9d9e4f63b49f635a66d7de9eb94b9c5":[2,0,0,7,0,0],
+"almost_edges_8c_source.html":[2,0,0,7,0],
+"almost_edges_8h.html":[2,0,0,7,1],
+"almost_edges_8h_source.html":[2,0,0,7,1],
 "buildscipt_8py.html":[2,0,1],
 "buildscipt_8py.html#a105fd5892c819b1ad4a8551b85195ed4":[2,0,1,6],
 "buildscipt_8py.html#a2cf42f70b97df175a1fcfcac41936b1f":[2,0,1,4],
@@ -25,6 +31,7 @@ var NAVTREEINDEX0 =
 "dir_59d1b4bda1779c08bde042def4082f1d.html":[2,0,0],
 "dir_5c7b920bd71f4d4e32a223f502885e43.html":[2,0,0,4],
 "dir_6d82b8d00c81ae974b75460b5e5ac034.html":[2,0,0,0],
+"dir_a9ffc15f15be71e27af5ddf0df7bda6c.html":[2,0,0,7],
 "dir_e593c3f3fdcd6b627f0af07aa3cafb90.html":[2,0,0,3],
 "dir_ea379e5c6b54b9f00cb0199f978a8573.html":[2,0,0,5],
 "dir_f56eaff9dbc2229779147552b7ef00f1.html":[2,0,0,1],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['build_5fin_0',['build_in',['../namespacebuildscipt.html#ae16482626ac7825a0a9e1bae4db85757',1,'buildscipt']]],
-  ['buildscipt_1',['buildscipt',['../namespacebuildscipt.html',1,'']]],
-  ['buildscipt_2epy_2',['buildscipt.py',['../buildscipt_8py.html',1,'']]]
+  ['almostedges_0',['AlmostEdges',['../almost_edges_8c.html#af9d9e4f63b49f635a66d7de9eb94b9c5',1,'almostEdges.c']]],
+  ['almostedges_2ec_1',['almostEdges.c',['../almost_edges_8c.html',1,'']]],
+  ['almostedges_2eh_2',['almostEdges.h',['../almost_edges_8h.html',1,'']]]
 ];

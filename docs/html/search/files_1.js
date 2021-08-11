@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['diamond_2ec_40',['diamond.c',['../diamond_8c.html',1,'']]],
-  ['diamond_2eh_41',['diamond.h',['../diamond_8h.html',1,'']]]
+  ['buildscipt_2epy_44',['buildscipt.py',['../buildscipt_8py.html',1,'']]]
 ];

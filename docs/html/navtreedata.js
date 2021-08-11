@@ -47,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"buildscipt_8py.html"
+"almost_edges_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

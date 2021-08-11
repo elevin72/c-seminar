@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getcheckdigit_59',['GetCheckDigit',['../id_validate_8c.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c'],['../id_validate_8h.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c'],['../fix_i_d_8c.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;fixID.c'],['../fix_i_d_8h.html#a71308e7f4cd5eaae526e52f903fd5b5a',1,'GetCheckDigit(unsigned int id):&#160;idValidate.c']]]
+  ['edit_5fdconfig_64',['edit_dconfig',['../namespacebuildscipt.html#a982589afb4bbc6da073e6295ce78e586',1,'buildscipt']]]
 ];
