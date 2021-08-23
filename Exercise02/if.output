@@ -1,0 +1,44 @@
+
+if.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <func>:
+
+int func(int a)
+{
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	89 7d fc             	mov    DWORD PTR [rbp-0x4],edi
+    return a-2;
+   7:	8b 45 fc             	mov    eax,DWORD PTR [rbp-0x4]
+   a:	83 e8 02             	sub    eax,0x2
+}
+   d:	5d                   	pop    rbp
+   e:	c3                   	ret    
+
+000000000000000f <main>:
+
+int main()
+{
+   f:	55                   	push   rbp
+  10:	48 89 e5             	mov    rbp,rsp
+  13:	48 83 ec 10          	sub    rsp,0x10
+    int a;
+    if (2 == func(4))
+  17:	bf 04 00 00 00       	mov    edi,0x4
+  1c:	e8 00 00 00 00       	call   21 <main+0x12>
+  21:	83 f8 02             	cmp    eax,0x2
+  24:	75 09                	jne    2f <main+0x20>
+        a = 1;
+  26:	c7 45 fc 01 00 00 00 	mov    DWORD PTR [rbp-0x4],0x1
+  2d:	eb 07                	jmp    36 <main+0x27>
+    else
+        a = 0;
+  2f:	c7 45 fc 00 00 00 00 	mov    DWORD PTR [rbp-0x4],0x0
+    return 0;
+  36:	b8 00 00 00 00       	mov    eax,0x0
+}
+  3b:	c9                   	leave  
+  3c:	c3                   	ret    

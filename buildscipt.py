@@ -22,10 +22,11 @@ def walk_down_dir_structure(dir=CALLING_DIR):
         elif os.path.isfile(rel_path) and rel_path.endswith(".c"):
             print("building files in " + str(dir))
             build_in(dir)
+            break
 
 def build_in(dir):
     print("compiling")
-    compile_output = subprocess.run('gcc -Wall -Werror -pedantic -std=c11 -o'+ dir + '/a.out ' + dir + '/*.c', shell=True)
+    compile_output = subprocess.run('gcc -Wall -Werror -pedantic -std=c11 -o'+ dir + '/a.out ' + dir + '/*.c ' + '-lgmp', shell=True)
     if compile_output.returncode == 0:
         print("compilation succesful")
     else:

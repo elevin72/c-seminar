@@ -4,7 +4,8 @@
 #define LINE_LENGTH 3
 
 /**
- * Decides if the program should be terminated or not yet, based on the
+ *
+ * @brief Decides if the program should be terminated or not yet, based on the
  * null-terminated string passed
  *
  * @param string The string that is possibly a termination string
