@@ -8,7 +8,7 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
-int Transpose(int (*matrix)[], size_t n)
+void Transpose(int (*matrix)[], size_t n)
 {
     int *matrix_p = (int*)matrix;
     for (int i = 0; i < n; ++i)

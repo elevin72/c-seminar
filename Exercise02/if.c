@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int func(int a)
 {
@@ -6,10 +7,11 @@ int func(int a)
 
 int main()
 {
-    int a;
+    int a = 0;
     if (2 == func(4))
         a = 1;
     else
         a = 0;
+    printf("%d", a);
     return 0;
 }
